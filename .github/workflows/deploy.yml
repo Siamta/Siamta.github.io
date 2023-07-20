@@ -23,7 +23,7 @@ jobs:
               run: cd Veel-Glorie && npm run build
 
             - name: Get ready to deploy
-              run: cp -r ./Veel-Glorie/dist .
+              run: cp -r ./Veel-Glorie/dist/* .
 
             - name: Log files
               run: ls -a && cd ./Veel-Glorie && ls -a
