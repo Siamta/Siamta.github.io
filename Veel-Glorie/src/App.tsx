@@ -28,7 +28,7 @@ function App() {
         <img src="https://www.clarin.com/img/2021/09/27/muJ99kLXR_720x0__1.jpg"></img>
       </div>
       <h1>🔥 Veel Glorie 🔥</h1>
-      <h2>&nbsp;&nbsp;&nbsp;&nbsp;Reclutamiento abierto</h2>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;Reclutamiento abierto!!!!</h2>
     </>
   )
 }
