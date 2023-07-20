@@ -13,6 +13,8 @@ jobs:
         steps:
             - name: Checkout Code
               uses: actions/checkout@v3
+              with:
+                ref: ${{ github.head_ref }}
 
             - name: Install Node dependencies
               run: cd Veel-Glorie && npm install
@@ -23,8 +25,13 @@ jobs:
             - name: Get ready to deploy
               run: cp -r ./Veel-Glorie/dist .
 
+            - name: Log files
+              run: ls -a && cd ./Veel-Glorie && ls -a
+
             - name: Deploy
               uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                commit_message: deploy
 
             # - name: Commit report
             #   run: |
