@@ -1,0 +1,23 @@
+name: Deploy the best website of the entire Internet
+
+on:
+  push:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v3
+
+            - name: Install Node dependencies
+              run: cd Veel-Glorie && npm install
+
+            - name: Build
+              run: cd Veel-Glorie && npm run build
+
+            - name: Get ready to deploy
+              run: cp -r ./Veel-Glorie/src/dist .
+
+            - name: Deploy
+              uses: stefanzweifel/git-auto-commit-action@v4
