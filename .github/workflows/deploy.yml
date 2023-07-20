@@ -19,5 +19,12 @@ jobs:
             - name: Get ready to deploy
               run: cp -r ./Veel-Glorie/dist .
 
-            - name: Deploy
-              uses: stefanzweifel/git-auto-commit-action@v4
+            # - name: Deploy
+            #   uses: stefanzweifel/git-auto-commit-action@v4
+
+            - name: Commit report
+              run: |
+                git config --global user.name "Veel-Glorie BOT"
+                git config --global user.email "veel-glorie@users.noreply.github.com"
+                git commit -am "Automated report"
+                git push
