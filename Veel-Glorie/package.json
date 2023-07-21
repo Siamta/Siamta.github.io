@@ -41,14 +41,5 @@
   "browserslist": [
     "defaults",
     "not IE 11"
-  ],
-  "postcss": {
-    "plugins": [
-      "postcss-import",
-      "tailwindcss",
-      "postcss-preset-env",
-      "autoprefixer",
-      "cssnano"
-    ]
-  }
+  ]
 }
