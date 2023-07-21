@@ -15,16 +15,26 @@ jobs:
               uses: actions/checkout@v3
 
             - name: Install Node dependencies
-              run: cd Veel-Glorie && npm install
+              run: |
+                cd Veel-Glorie
+                npm install
 
             - name: Remove previous version
               run: rm -rf assets
 
             - name: Build
-              run: cd Veel-Glorie && npm run build
+              run: |
+                cd Veel-Glorie
+                npm run build
 
             - name: Get ready to deploy
-              run: cp -r ./Veel-Glorie/dist/* .
+              run: |
+                cp -r ./Veel-Glorie/dist/* .
+                cp ./Veel-Glorie/favicon.ico .
+                cp ./Veel-Glorie/manifest.json .
+                cp ./Veel-Glorie/robots.txt .
+                cp ./Veel-Glorie/sitemap.xml .
+                cp ./Veel-Glorie/sw.js .
 
             - name: Deploy
               uses: stefanzweifel/git-auto-commit-action@v4
