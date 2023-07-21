@@ -28,13 +28,7 @@ jobs:
                 npm run build
 
             - name: Get ready to deploy
-              run: |
-                cp -r ./Veel-Glorie/dist/* .
-                cp ./Veel-Glorie/src/favicon.ico .
-                cp ./Veel-Glorie/src/manifest.json .
-                cp ./Veel-Glorie/src/robots.txt .
-                cp ./Veel-Glorie/src/sitemap.xml .
-                cp ./Veel-Glorie/src/sw.js .
+              run: cp -r ./Veel-Glorie/dist/* .
 
             - name: Deploy
               uses: stefanzweifel/git-auto-commit-action@v4
