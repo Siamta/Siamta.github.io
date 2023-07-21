@@ -5,7 +5,7 @@ function App() {
     <div className="flex flex-col min-h-screen style-background font-primary text-neutral break-word">
       <NavBar />
       <main>
-        <div>
+        <div style={{display: "none"}}>
           <img src="https://www.bioeticablog.com/wp-content/uploads/stalin-perincek-800x450-1.jpeg"></img>
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MvlZCtO3WLcXFHL3-WAh22YNOLIm0UFZqMIuYdJNgSU2YaEmvkABz2AOkVvzZoI3X8c&usqp=CAU"></img>
           <img src="https://thumbs.dreamstime.com/b/retrato-de-adolf-hitler-pintado-por-b-jackobs-imagen-del-libro-bilder-aus-dem-leben-des-fuhrers-im%C3%A1genes-la-vida-fuhrer-publicado-183308284.jpg"></img>
