@@ -8,6 +8,7 @@
 @tailwind components;
 @tailwind utilities;
 
+// Global variables.
 :root {
   // Custom.
   --separator: 1rem;
@@ -30,6 +31,7 @@
   --navbar-padding: var(--separator-big);
 }
 
+// Tags.
 @layer base {
   hr {
     @apply border-0;
@@ -40,11 +42,10 @@
     max-height: 150px;
     width: 100%;
   }
-
 }
 
+// Classes.
 @layer utilities {
-
   .break-word {
     @apply break-words;
 
@@ -59,6 +60,7 @@
 
   .font-primary {
     @apply font-sans;
+
     font-family: Poppins;
 
     &-bold {

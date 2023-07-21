@@ -24,7 +24,6 @@ module.exports = {
       xl: `${defaultEnv.SCREEN_XL}px`,
       "2xl": `${defaultEnv.SCREEN_2XL}px`,
     },
-    extend: styles.colors,
   },
   daisyui: {
     themes: [
