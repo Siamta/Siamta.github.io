@@ -14,13 +14,14 @@
     "baseUrl": ".",
     "paths": {
       "@styles": [
-        "./src/styles/base.sass"
+        "./src/styles/base.scss"
       ],
     },
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
   },
   "include": [
