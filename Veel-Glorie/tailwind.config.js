@@ -9,10 +9,10 @@ module.exports = {
   mode: "jit",
   content: [
     "./index.html",
-    "./src/**/*.{ts,tsx}",
+    "./src/**/*.{js,ts,tsx}",
   ],
   purge: [
-    "./src/**/*.{ts,tsx}",
+    "./src/**/*.{js,ts,tsx}",
   ],
   plugins: [daisyUI, tailwindRTL],
   darkMode: false,
