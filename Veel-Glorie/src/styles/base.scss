@@ -48,11 +48,13 @@
    */
 
    .font-primary {
-    @apply font-sans;
-    font-family: Poppins;
+      @apply font-sans;
+      font-family: Poppins;
 
-    &-bold {
-      @apply font-bold;
-    }
+      &-bold {
+        @apply font-bold;
+      }
+
+  }
 
 }
