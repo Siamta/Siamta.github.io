@@ -12,7 +12,7 @@
   --btn-text-case: unset;
   --btn-focus-scale: 0.95;
   --border-btn: 1px;
-  // --border-color: map.get($colors, base-300);
+  --border-color: --colors-base-300;
   --rounded-box: var(--separator);
   --rounded-btn: var(--separator-small);
   --rounded-badge: var(--separator);
