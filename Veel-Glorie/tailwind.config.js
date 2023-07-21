@@ -2,17 +2,17 @@ const daisyUI = require("daisyui")
 const tailwindRTL = require("tailwindcss-rtl")
 
 const defaultEnv = require("./default-env")
-const styles = require("./src/styles")
+const styles = require("./styles")
 
 module.exports = {
   preserveHtmlElements: false,
   mode: "jit",
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   purge: [
-    "./src/**/*.{js,ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   plugins: [daisyUI, tailwindRTL],
   darkMode: false,

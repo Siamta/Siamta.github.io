@@ -1,4 +1,4 @@
-const defaultEnv = require("../default-env.js")
+const defaultEnv = require("./default-env.js")
 
 module.exports = {
   colors: {
