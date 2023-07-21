@@ -2,7 +2,7 @@ const daisyUI = require("daisyui")
 const tailwindRTL = require("tailwindcss-rtl")
 
 const defaultEnv = require("./default-env")
-const styles = require("./styles")
+const styles = require("./src/styles")
 
 module.exports = {
   preserveHtmlElements: false,
