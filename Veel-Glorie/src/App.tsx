@@ -1,6 +1,9 @@
+import NavBar from "./components/navbar/NavBar"
+
 function App() {
   return (
     <>
+      <NavBar />
       <div>
         <img src="https://www.bioeticablog.com/wp-content/uploads/stalin-perincek-800x450-1.jpeg"></img>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MvlZCtO3WLcXFHL3-WAh22YNOLIm0UFZqMIuYdJNgSU2YaEmvkABz2AOkVvzZoI3X8c&usqp=CAU"></img>
@@ -27,6 +30,48 @@ function App() {
         <img src="https://static01.nyt.com/images/2020/09/16/multimedia/16Martinez-ES-2/merlin_172631868_3081422f-1c3c-4b6c-852a-ba4808f321f3-articleLarge.jpg?quality=75&auto=webp&disable=upscale"></img>
         <img src="https://www.clarin.com/img/2021/09/27/muJ99kLXR_720x0__1.jpg"></img>
       </div>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
+      <h1>🔥 Veel Glorie 🔥</h1>
       <h1>🔥 Veel Glorie 🔥</h1>
       <h2>&nbsp;&nbsp;&nbsp;&nbsp;Reclutamiento abierto!!!!</h2>
     </>
