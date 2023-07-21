@@ -28,6 +28,7 @@
     "noFallthroughCasesInSwitch": true,
   },
   "include": [
+    ".d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],
