@@ -1,5 +1,5 @@
 import { defineConfig } from "vite"
-import jsonImporter from "node-sass-json-importer"
+import { jsonImporter } from "node-sass-json-importer"
 import react from "@vitejs/plugin-react-swc"
 
 export default defineConfig({
