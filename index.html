@@ -116,8 +116,9 @@
     <link rel="stylesheet" href="/assets/index-91b8403d.css">
   </head>
   <body>
-    <div id="root"></div>
-    
+    <div className="flex flex-col min-h-screen style-background font-primary text-neutral break-word">
+      <div id="root"></div>
+    </div>
     <script>
       if ("serviceWorker" in navigator && !navigator.serviceWorker.controller) {
         navigator.serviceWorker.register("/sw.js", { scope: "/" });
