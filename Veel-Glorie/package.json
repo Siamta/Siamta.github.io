@@ -28,6 +28,7 @@
     "node-sass": "^9.0.0",
     "node-sass-json-importer": "^4.3.0",
     "postcss": "^8.4.26",
+    "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^9.0.0",
     "sass": "^1.64.0",
