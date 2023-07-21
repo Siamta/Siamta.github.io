@@ -8,7 +8,9 @@
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
+    "removeComments": true,
     "isolatedModules": true,
+    "esModuleInterop": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
@@ -17,6 +19,7 @@
         "./src/styles/base.scss"
       ],
     },
+    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
