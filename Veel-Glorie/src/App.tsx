@@ -1,6 +1,5 @@
 import Base from "src/layout/Base"
 import Info from "src/layout/Info"
-import Separator from "src/components/Separator"
 import Slideshow from "src/layout/Slideshow"
 import Hero from "src/layout/Hero"
 import Introduction from "src/layout/Introduction"

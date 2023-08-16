@@ -15,7 +15,7 @@ function Hero(): JSX.Element {
                 <div>
                     <H1>{process.env.SITE_NAME.toUpperCase()}</H1>
                     <p className="py-6">Gremio Hispanohablante de Albion Online.</p>
-                    <Button>Discord</Button>
+                    <Button url="https://discord.gg/BThjZ9HCZm">Discord</Button>
                 </div>
             </div>
         </div>

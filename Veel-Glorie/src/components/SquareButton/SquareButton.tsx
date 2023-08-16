@@ -2,16 +2,32 @@ import { ReactNode } from "react"
 
 import A from "src/components/A"
 
-interface SquareButtonProps {
+interface SquareButtonLinkProps {
   url: string
+  onClick?: undefined
   children: ReactNode
 }
 
-function SquareButton({ url, children }: SquareButtonProps): JSX.Element {
+interface SquareButtonNormalProps {
+  url?: undefined
+  onClick: () => void
+  children: ReactNode
+}
+
+type SquareButtonProps = SquareButtonLinkProps | SquareButtonNormalProps
+
+function SquareButton({ url, onClick, children }: SquareButtonProps): JSX.Element {
+  if (url) {
+    return (
+      <A href={url}>
+        <div className="text-2xl btn btn-ghost btn-square">{children}</div>
+      </A>
+    )
+  }
   return (
-    <A href={url}>
-      <div className="text-2xl btn btn-ghost btn-square">{children}</div>
-    </A>
+    <button onClick={onClick} type="button" className="text-2xl btn btn-ghost btn-square">
+      {children}
+    </button>
   )
 }
 

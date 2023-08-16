@@ -2,7 +2,7 @@ declare module "node-sass-json-importer" {
   export default function (): () => any
 }
 
-declare module "default-env" {
+declare module "default-env.js" {
   export interface Dict {
     READY: string,
 

@@ -135,7 +135,7 @@ function Header(): JSX.Element {
         >
           {getIndex(buttons).map((item_1) => (
             <li key={item_1.id}>
-              <A href={item_1.data.url}>{item_1.data.svg}</A>
+              <A href={item_1.data.url}><item_1.data.svg /></A>
             </li>
           ))}
         </ul>
