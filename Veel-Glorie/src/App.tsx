@@ -1,8 +1,9 @@
-import Base from "src/layout/Base"
-import Info from "src/layout/Info"
-import Hero from "src/layout/Hero"
-import Introduction from "src/layout/Introduction"
-import Recruiting from "src/layout/Recruiting"
+import Base from "./layout/Base"
+import Info from "./layout/Info"
+import Hero from "./layout/Hero"
+import Introduction from "./layout/Introduction"
+import Recruiting from "./layout/Recruiting"
+import "./styles/base.scss"
 
 function App() {
   return (

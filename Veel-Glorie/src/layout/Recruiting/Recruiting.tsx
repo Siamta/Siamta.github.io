@@ -1,6 +1,6 @@
-import { H2 } from "src/components/Headings"
-import Section, {separations} from "src/components/Section"
-import A from "src/components/A"
+import { H2 } from "../../components/Headings"
+import Section, {separations} from "../../components/Section"
+import A from "../../components/A"
 
 function Recruiting(): JSX.Element {
     return (

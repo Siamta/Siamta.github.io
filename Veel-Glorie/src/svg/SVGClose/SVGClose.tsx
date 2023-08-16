@@ -1,4 +1,4 @@
-import BaseSVG from "src/svg/BaseSVG"
+import BaseSVG from "../../svg/BaseSVG"
 
 function SVGClose(): JSX.Element {
   return (

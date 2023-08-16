@@ -1,7 +1,7 @@
 import classNames from "classnames"
 import { ReactNode, Children } from "react"
 
-import { getIndex } from "src/utils/transformers"
+import { getIndex } from "../../utils/transformers"
 
 const separations = {
   DEFAULT: "py-4",

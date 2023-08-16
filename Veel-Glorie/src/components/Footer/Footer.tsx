@@ -1,5 +1,5 @@
-import A from "src/components/A"
-import Section, { separations } from "src/components/Section"
+import A from "../../components/A"
+import Section, { separations } from "../../components/Section"
 
 function Footer(): JSX.Element {
   return (

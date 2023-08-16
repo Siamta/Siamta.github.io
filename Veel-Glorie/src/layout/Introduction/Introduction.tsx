@@ -1,5 +1,5 @@
 
-import Section, {separations} from "src/components/Section"
+import Section, {separations} from "../../components/Section"
 
 function Introduction(): JSX.Element {
     return (
