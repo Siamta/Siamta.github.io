@@ -1,5 +1,4 @@
-
-import A from "../../components/A"
+import Link from "../Link"
 
 interface ButtonProps {
   url: string
@@ -8,11 +7,9 @@ interface ButtonProps {
 
 function Button({ url, children }: ButtonProps): JSX.Element {
   return (
-    <A href={url}>
-      <div className="border-opacity-0 btn btn-primary text-lg">
-        {children}
-      </div>
-    </A>
+    <Link href={url}>
+      <div className="border-opacity-0 btn btn-primary text-lg">{children}</div>
+    </Link>
   )
 }
 

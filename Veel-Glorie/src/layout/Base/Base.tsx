@@ -33,7 +33,7 @@ function Base({ children }: BaseProps): JSX.Element {
   return (
     <>
       <Header />
-        <main className="my-auto py-[var(--separator-big)] -mt-24">{children}</main>
+      <main className="my-auto py-[var(--separator-big)] -mt-24">{children}</main>
       <Footer />
     </>
   )

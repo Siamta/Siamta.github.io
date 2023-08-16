@@ -2,20 +2,14 @@ import classNames from "classnames"
 import { ReactNode, Children } from "react"
 
 import { getIndex } from "../../utils/transformers"
-
-const separations = {
-  DEFAULT: "py-4",
-  SMALL: "py-2",
-  BIG: "py-8",
-  BIG_DOUBLE: "py-16",
-}
+import { separations } from "./constants"
 
 interface SectionProps {
   background?: "primary" | "secondary"
   transparency?: boolean
   isFooter?: boolean
   children: ReactNode | ReactNode[]
-  separation?: typeof separations[keyof typeof separations]
+  separation?: (typeof separations)[keyof typeof separations]
 }
 
 function Section({
@@ -31,11 +25,11 @@ function Section({
       "bg-primary": background === "primary",
     },
     {
-      "bg-secondary": background === "secondary"
+      "bg-secondary": background === "secondary",
     },
     {
       "bg-opacity-50": transparency,
-    }
+    },
   )
   const childrenWrapper = (
     <div className="container flex m-auto px-[var(--separator-big)]">
@@ -56,4 +50,3 @@ function Section({
 }
 
 export default Section
-export { separations }

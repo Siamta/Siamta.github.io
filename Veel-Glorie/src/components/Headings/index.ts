@@ -1,6 +1,6 @@
 import Headings from "./Headings"
 
-export default Headings /* eslint-disable-line import/no-unused-modules */
+export default Headings
 
 const { H1, H2 } = Headings
 

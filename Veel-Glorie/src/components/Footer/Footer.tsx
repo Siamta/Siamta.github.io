@@ -1,4 +1,4 @@
-import A from "../../components/A"
+import Link from "../Link"
 import Section, { separations } from "../../components/Section"
 
 function Footer(): JSX.Element {
@@ -6,7 +6,7 @@ function Footer(): JSX.Element {
     <Section isFooter background="secondary" separation={separations.SMALL}>
       <p>
         {"Web construida con Cariño <3 | "}
-        <A href="https://github.com/Siamta/Siamta.github.io">Ver el código fuente</A>
+        <Link href="https://github.com/Siamta/Siamta.github.io">Ver el código fuente</Link>
       </p>
     </Section>
   )

@@ -7,13 +7,8 @@ const styles = require("./styles")
 module.exports = {
   preserveHtmlElements: false,
   mode: "jit",
-  content: [
-    "./index.html",
-    "./src/**/*.{ts,tsx}",
-  ],
-  purge: [
-    "./src/**/*.{ts,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  purge: ["./src/**/*.{ts,tsx}"],
   plugins: [daisyUI, tailwindRTL],
   theme: {
     screens: {

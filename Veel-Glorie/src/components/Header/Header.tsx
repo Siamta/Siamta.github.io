@@ -1,7 +1,7 @@
 import classNames from "classnames"
 import { useEffect, useRef, useState } from "react"
 
-import A from "../../components/A"
+import Link from "../Link"
 import Button from "../../components/Button"
 import SquareButton from "../../components/SquareButton"
 
@@ -32,8 +32,8 @@ const buttons: MenuConfig[] = [
 function Header(): JSX.Element {
   const divRef = useRef<HTMLUListElement>(null)
   const mainNavRef = useRef<HTMLElement>(null)
-  const [scrollState, setScrollState] = useState<typeof scrollStates[keyof typeof scrollStates]>(
-    scrollStates.NOT_SCROLLED
+  const [scrollState, setScrollState] = useState<(typeof scrollStates)[keyof typeof scrollStates]>(
+    scrollStates.NOT_SCROLLED,
   )
   const [menuIsVisible, setMenuIsVisible] = useState<boolean>(false)
   const [screenIsSmall, setScreenIsSmall] = useState<boolean>(false)
@@ -100,9 +100,7 @@ function Header(): JSX.Element {
         ref={mainNavRef}
         className={classNames("justify-between navbar", { "mr-4": menuIsVisible && scrollIsVisible })}
       >
-        <Button url="/">
-          {process.env.SITE_NAME}
-        </Button>
+        <Button url="/">{process.env.SITE_NAME}</Button>
         <ul className={screenIsSmall ? "hidden" : undefined} aria-hidden={screenIsSmall}>
           {getIndex(buttons).map((item_1) => (
             <li key={item_1.id}>
@@ -135,7 +133,9 @@ function Header(): JSX.Element {
         >
           {getIndex(buttons).map((item_1) => (
             <li key={item_1.id}>
-              <A href={item_1.data.url}><item_1.data.svg /></A>
+              <Link href={item_1.data.url}>
+                <item_1.data.svg />
+              </Link>
             </li>
           ))}
         </ul>

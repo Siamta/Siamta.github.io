@@ -1,5 +1,5 @@
 declare namespace NodeJS {
-export interface Dict {
+  export interface Dict {
     // Basic Configuration.
     READY: string
     SITE_DOMAIN: string
@@ -53,5 +53,5 @@ export interface Dict {
     COLOR_BASE_200: string
     COLOR_BASE_300: string
     COLOR_BASE_CONTENT: string
-}
+  }
 }

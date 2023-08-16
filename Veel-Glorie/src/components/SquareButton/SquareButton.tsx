@@ -1,6 +1,6 @@
 import { ReactNode } from "react"
 
-import A from "../../components/A"
+import Link from "../Link"
 
 interface SquareButtonLinkProps {
   url: string
@@ -19,9 +19,9 @@ type SquareButtonProps = SquareButtonLinkProps | SquareButtonNormalProps
 function SquareButton({ url, onClick, children }: SquareButtonProps): JSX.Element {
   if (url) {
     return (
-      <A href={url}>
+      <Link href={url}>
         <div className="text-2xl btn btn-ghost btn-square">{children}</div>
-      </A>
+      </Link>
     )
   }
   return (
