@@ -10,12 +10,12 @@ const COLOR_INFO = "#54c6eb"
 const COLOR_SUCCESS = "#5dd39e"
 const COLOR_WARNING = "#ffd972"
 const COLOR_ERROR = "#ff6b6c"
-const COLOR_PRIMARY = "#f8b139"
-const COLOR_PRIMARY_FOCUS = "#bf882a"
+const COLOR_PRIMARY = "#b42724"
+const COLOR_PRIMARY_FOCUS = "#c42b27"
 const COLOR_PRIMARY_CONTENT = COLOR_FOREGROUND
-const COLOR_SECONDARY = "#b42724"
-const COLOR_SECONDARY_FOCUS = "#c42b27"
-const COLOR_SECONDARY_CONTENT = "#de312c"
+const COLOR_SECONDARY = "#000000"
+const COLOR_SECONDARY_FOCUS = "#cccccc"
+const COLOR_SECONDARY_CONTENT = "#ffffff"
 const COLOR_ACENT = COLOR_PRIMARY
 const COLOR_ACENT_FOCUS = COLOR_PRIMARY_FOCUS
 const COLOR_ACENT_CONTENT = COLOR_PRIMARY_CONTENT
@@ -28,6 +28,16 @@ const COLOR_BASE_300 = COLOR_FOREGROUND_OVER_BACKGROUND_20_PERCENT
 const COLOR_BASE_CONTENT = COLOR_FOREGROUND
 
 module.exports = {
+  // ===================================================================
+  // Basic Configuration.
+  // ===================================================================
+  READY: "false",
+
+  SITE_DOMAIN: "https://veelglorie.com",
+  SITE_NAME: "Veel Glorie",
+  SITE_DESCRIPTION: "Gremio de Albion Online",
+  SITE_SLOGAN: "Convertimos granjeros en soldados",
+
   // ===================================================================
   // Screens.
   // ===================================================================
@@ -45,6 +55,7 @@ module.exports = {
   // Must accomplish the following regex: `#[0-9a-f]{6}`.
 
   // DaisyUI.
+  // - https://daisyui.com/docs/colors/
   COLOR_INFO,
   COLOR_SUCCESS,
   COLOR_WARNING,

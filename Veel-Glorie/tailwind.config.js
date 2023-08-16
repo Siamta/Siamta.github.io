@@ -15,7 +15,6 @@ module.exports = {
     "./src/**/*.{ts,tsx}",
   ],
   plugins: [daisyUI, tailwindRTL],
-  darkMode: false,
   theme: {
     screens: {
       sm: `${defaultEnv.SCREEN_SM}px`,

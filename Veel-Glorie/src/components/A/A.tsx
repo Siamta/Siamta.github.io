@@ -1,40 +1,17 @@
+import classNames from "classnames"
+
 interface AProps {
-  // The linked URL.
   href: string
-
-  // The elements wrapped by the `a` tag.
+  color?: boolean
   children: React.ReactNode
-
-  // The aria-label attribute.
-  ariaLabel?: string
-
-  // If the link should open in a new tab.
-  newTab?: boolean
-
-  onMouseEnter?: () => void
-  onMouseLeave?: () => void
 }
 
-function A({ href, children, ariaLabel, newTab, onMouseEnter, onMouseLeave }: AProps): JSX.Element {
-  let target: string | undefined
-  let rel: string | undefined
-
-  if (newTab) {
-    target = "_blank"
-    rel = "noreferrer noopener"
-  }
-
+function A({ href, color, children }: AProps): JSX.Element {
   return (
-      <a
-        href={href}
-        aria-label={ariaLabel}
-        target={target}
-        rel={rel}
-        onFocus={onMouseEnter}
-        onBlur={onMouseLeave}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
-      >
+      <a href={href} className={classNames({
+        "hover:text-primary": color,
+        "underline": color,
+      })}>
         {children}
       </a>
   )

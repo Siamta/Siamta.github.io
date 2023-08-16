@@ -9,3 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+if (process.env.READY === "true" && "serviceWorker" in navigator && !navigator.serviceWorker.controller) {
+  navigator.serviceWorker.register("/sw.js", { scope: "/" });
+}

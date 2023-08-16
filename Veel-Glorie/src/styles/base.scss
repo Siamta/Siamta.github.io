@@ -14,7 +14,6 @@
   --separator: 1rem;
   --separator-small: calc(var(--separator) * 0.5);
   --separator-big: calc(var(--separator) * 1.5);
-  --separator-big-double: calc(var(--separator-big) * 2);
 
   // DaisyUI.
   --animation-btn: 0.25s;
@@ -68,24 +67,37 @@
     }
   }
 
+  .style-shadow {
+    box-shadow: 0 1px 5px 0 map.get($colors, primary);
+  }
+
   .style-background {
     @apply bg-no-repeat;
 
-    background: url("/assets/background.jpg") 50%;
-    background-image: linear-gradient(270deg, transparent, #000000), url("/assets/background.jpg");
+    background: url("/images/background.jpg") 50%;
+    background-image: linear-gradient(270deg, transparent, #000000), url("/images/background.jpg");
 
     @apply bg-contain;
   }
 
   .style-scroll {
     &::-webkit-scrollbar {
-      height: 0.5rem;
       width: 1rem;
     }
 
-    &::-webkit-scrollbar-thumb,
-    &::-webkit-scrollbar-track {
+    &::-webkit-scrollbar-thumb {
       border-radius: 0.25rem;
+    }
+
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-track {
+      background-color: map.get($colors, secondary);
+      &:hover {
+        background-color: color.scale(map.get($colors, secondary), $lightness: 5%);
+      }
+      &:active {
+        background-color: color.scale(map.get($colors, secondary), $lightness: -5%);
+      }
     }
 
     &::-webkit-scrollbar-thumb {
@@ -93,6 +105,11 @@
 
       &:hover {
         box-shadow: 0 0 0.125rem 1px rgb(0 0 0 / 20%);
+        background-color: color.scale(map.get($colors, primary), $lightness: -5%);
+      }
+
+      &:active {
+        background-color: color.scale(map.get($colors, primary), $lightness: -10%);
       }
     }
 
@@ -110,48 +127,4 @@
       }
     }
   }
-
-  .style-scroll-primary {
-    &::-webkit-scrollbar,
-    &::-webkit-scrollbar-track {
-      background-color: map.get($colors, secondary);
-    }
-
-    &::-webkit-scrollbar-thumb {
-      &:hover {
-        background-color: map.get($colors, primary);
-      }
-
-      &:active {
-        background-color: color.scale(map.get($colors, primary-focus), $lightness: 15%);
-      }
-    }
-
-    &::-webkit-scrollbar-track:active,
-    &::-webkit-scrollbar-track:hover {
-      background-color: color.scale(map.get($colors, secondary), $lightness: 10%);
-    }
-  }
-
-  .style-scroll-secondary {
-    &::-webkit-scrollbar-track {
-      background-color: color.scale(map.get($colors, primary), $lightness: 40%);
-    }
-
-    &::-webkit-scrollbar-thumb {
-      &:hover {
-        background-color: color.scale(map.get($colors, primary-focus), $lightness: -5%);
-      }
-
-      &:active {
-        background-color: color.scale(map.get($colors, primary-focus), $lightness: -10%);
-      }
-    }
-
-    &::-webkit-scrollbar-track:active,
-    &::-webkit-scrollbar-track:hover {
-      background-color: color.scale(map.get($colors, primary), $lightness: 50%);
-    }
-  }
-
 }

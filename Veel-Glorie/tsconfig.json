@@ -14,11 +14,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "paths": {
-      "@styles": [
-        "./src/styles/base.scss"
-      ],
-    },
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -32,6 +27,23 @@
     "**/*.ts",
     "**/*.tsx"
   ],
+  "paths": {
+    "@components": [
+      "./src/components",
+    ],
+    "@layout": [
+      "./src/layout",
+    ],
+    "@styles": [
+      "./src/styles/base.scss",
+    ],
+    "@svg": [
+      "./src/svg",
+    ],
+    "@utils": [
+      "./src/utils",
+    ],
+  },
   "exclude": [
     "node_modules"
   ],
