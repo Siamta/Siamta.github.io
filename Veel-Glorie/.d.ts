@@ -1,3 +1,11 @@
+/// <reference types="vite/client" />
+
+declare module "@components";
+declare module "@layout";
+declare module "@styles";
+declare module "@svg";
+declare module "@utils";
+
 declare module "node-sass-json-importer" {
   export default function (): () => any
 }
