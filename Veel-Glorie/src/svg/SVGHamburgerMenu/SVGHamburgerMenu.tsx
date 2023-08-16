@@ -1,4 +1,4 @@
-import BaseSVG from "@svg/BaseSVG"
+import BaseSVG from "src/svg/BaseSVG"
 
 function SVGHamburgerMenu(): JSX.Element {
   return (

@@ -1,5 +1,5 @@
 
-import A from "@components/A"
+import A from "src/components/A"
 
 interface ButtonProps {
   url: string

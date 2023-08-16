@@ -27,23 +27,6 @@
     "**/*.ts",
     "**/*.tsx"
   ],
-  "paths": {
-    "@components": [
-      "./src/components",
-    ],
-    "@layout": [
-      "./src/layout",
-    ],
-    "@styles": [
-      "./src/styles/base.scss",
-    ],
-    "@svg": [
-      "./src/svg",
-    ],
-    "@utils": [
-      "./src/utils",
-    ],
-  },
   "exclude": [
     "node_modules"
   ],

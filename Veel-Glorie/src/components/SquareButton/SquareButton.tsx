@@ -1,6 +1,6 @@
 import { ReactNode } from "react"
 
-import A from "@components/A"
+import A from "src/components/A"
 
 interface SquareButtonProps {
   url: string

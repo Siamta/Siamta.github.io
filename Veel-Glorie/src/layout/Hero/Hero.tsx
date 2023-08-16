@@ -1,6 +1,6 @@
-import Button from "@components/Button"
-import { H1 } from "@components/Headings"
-import Section from "@components/Section"
+import Button from "src/components/Button"
+import { H1 } from "src/components/Headings"
+import Section from "src/components/Section"
 
 function Hero(): JSX.Element {
     return (

@@ -10,15 +10,6 @@ function defineAliasPath(path) {
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: [
-      { find: "@components", replacement: defineAliasPath("components") },
-      { find: "@layout", replacement: defineAliasPath("layout") },
-      { find: "@styles", replacement: defineAliasPath("styles/base.scss") },
-      { find: "@svg", replacement: defineAliasPath("svg") },
-      { find: "@utils", replacement: defineAliasPath("utils") },
-    ]
-  },
   define: {
     'process.env': defaultEnv,
   },

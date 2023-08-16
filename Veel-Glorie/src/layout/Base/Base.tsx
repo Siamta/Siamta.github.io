@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 
-import Footer from "@components/Footer"
+import Footer from "src/components/Footer"
 
-import Header from "@components/Header"
+import Header from "src/components/Header"
 
 interface BaseProps {
   children: React.ReactNode

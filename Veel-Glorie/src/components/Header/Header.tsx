@@ -1,16 +1,16 @@
 import classNames from "classnames"
 import { useEffect, useRef, useState } from "react"
 
-import A from "@components/A"
-import Button from "@components/Button"
-import SquareButton from "@components/SquareButton"
+import A from "src/components/A"
+import Button from "src/components/Button"
+import SquareButton from "src/components/SquareButton"
 
-import { SVGType } from "@svg/BaseSVG"
-import SVGClose from "@svg/SVGClose"
-import SVGDiscord from "@svg/SVGDiscord"
-import SVGHamburgerMenu from "@svg/SVGHamburgerMenu"
+import { SVGType } from "src/svg/BaseSVG"
+import SVGClose from "src/svg/SVGClose"
+import SVGDiscord from "src/svg/SVGDiscord"
+import SVGHamburgerMenu from "src/svg/SVGHamburgerMenu"
 
-import { getIndex } from "@utils/transformers"
+import { getIndex } from "src/utils/transformers"
 
 const scrollStates = {
   SCROLLED: "SCROLLED",

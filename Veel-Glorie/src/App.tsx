@@ -1,10 +1,10 @@
-import Base from "@layout/Base"
-import Info from "@layout/Info"
-import Separator from "@components/Separator"
-import Slideshow from "@layout/Slideshow"
-import Hero from "@layout/Hero"
-import Introduction from "@layout/Introduction"
-import Recruiting from "@layout/Recruiting"
+import Base from "src/layout/Base"
+import Info from "src/layout/Info"
+import Separator from "src/components/Separator"
+import Slideshow from "src/layout/Slideshow"
+import Hero from "src/layout/Hero"
+import Introduction from "src/layout/Introduction"
+import Recruiting from "src/layout/Recruiting"
 
 function App() {
   return (
