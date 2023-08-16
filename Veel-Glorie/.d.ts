@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 declare module "node-sass-json-importer" {
   export default function (): () => any
 }
