@@ -10,12 +10,10 @@ function Recruiting(): JSX.Element {
         <div className="card w-full md:w-96 bg-primary">
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-shield">
-              <p className="text-center pb-4">
+              <div className="text-center pb-2 flex flex-col md:flex-row md:space-x-1 justify-center">
                 <H3>REQUISITOS</H3>
-                <span className="block md:inline">
-                  <i>(cumplir 1 de ellos)</i>
-                </span>
-              </p>
+                <i>(cumplir 1 de ellos)</i>
+              </div>
               <li>500k de fama PVP</li>
               <li>15M de fama PVE</li>
               <li>Ser recomendado por alguien del gremio</li>

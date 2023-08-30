@@ -20,9 +20,9 @@ function H2({ children }: HeadingsProps): JSX.Element {
 
 function H3({ children }: HeadingsProps): JSX.Element {
   return (
-    <h2 className="text-2xl md:text-3xl">
+    <h3>
       <b>{children}</b>
-    </h2>
+    </h3>
   )
 }
 
