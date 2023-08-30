@@ -20,12 +20,14 @@ const scrollStates = {
 interface MenuConfig {
   url: string
   svg: () => SVGType
+  text: string
 }
 
 const buttons: MenuConfig[] = [
   {
     url: "https://discord.gg/BThjZ9HCZm",
     svg: SVGDiscord,
+    text: "DISCORD",
   },
 ]
 
@@ -104,13 +106,12 @@ function Header(): JSX.Element {
         <ul className={screenIsSmall ? "hidden" : undefined} aria-hidden={screenIsSmall}>
           {getIndex(buttons).map((item_1) => (
             <li key={item_1.id}>
-              <SquareButton url={item_1.data.url}>
+              <Button url={item_1.data.url} isSVG>
                 <item_1.data.svg />
-              </SquareButton>
+              </Button>
             </li>
           ))}
         </ul>
-
         <div className={screenIsSmall ? undefined : "hidden"} aria-hidden={!screenIsSmall}>
           <SquareButton
             onClick={() => setMenuIsVisible(!menuIsVisible)}
@@ -135,6 +136,9 @@ function Header(): JSX.Element {
             <li key={item_1.id}>
               <Link href={item_1.data.url}>
                 <item_1.data.svg />
+                <span>
+                  <b>{item_1.data.text}</b>
+                </span>
               </Link>
             </li>
           ))}

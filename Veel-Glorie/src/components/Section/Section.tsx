@@ -32,8 +32,8 @@ function Section({
     },
   )
   const childrenWrapper = (
-    <div className="container flex m-auto px-[var(--separator-big)]">
-      <div className="flex flex-col justify-center m-auto space-y-[var(--separator-big)]">
+    <div className="container flex m-auto px-[var(--separator)] md:px-[var(--separator-big)]">
+      <div className="flex flex-col justify-center m-auto space-y-[var(--separator)] md:space-y-[var(--separator-big)]">
         {getIndex(Children.toArray(children)).map((item_1_data) => (
           <div key={item_1_data.id} className="m-auto max-w-prose">
             {item_1_data.data}

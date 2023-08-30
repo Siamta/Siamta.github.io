@@ -54,7 +54,7 @@
   /**
    * Available fonts:
    *   - font-primary (400 weight)
-   *   - font-primary-bold (700 weight)
+   *     (700 weight, se aplica cuando se utiliza el tag `b`)
    */
 
   .font-primary {
@@ -62,9 +62,45 @@
 
     font-family: Poppins;
 
-    &-bold {
+    b {
       @apply font-bold;
     }
+  }
+
+  @counter-style style-li-fire {
+    symbols: "🔥";
+    system: cyclic;
+    suffix: " ";
+  }
+
+  .style-li-fire {
+    list-style-type: style-li-fire;
+  }
+
+  @counter-style style-li-castle {
+    symbols: "🏰";
+    system: cyclic;
+    suffix: " ";
+  }
+
+  .style-li-castle {
+    list-style-type: style-li-castle;
+  }
+
+  @counter-style style-li-shield {
+    symbols: "🛡️";
+    system: cyclic;
+    suffix: " ";
+  }
+
+  .style-li-shield {
+    list-style-type: style-li-shield;
+  }
+
+  .style-li-fire,
+  .style-li-castle,
+  .style-li-shield {
+    @apply pl-4;
   }
 
   .style-shadow {
