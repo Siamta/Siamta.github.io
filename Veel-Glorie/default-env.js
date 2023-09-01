@@ -31,7 +31,7 @@ module.exports = {
   // ===================================================================
   // Basic Configuration.
   // ===================================================================
-  READY: "false",
+  READY: "true",
 
   SITE_DOMAIN: "https://veelglorie.com",
   SITE_NAME: "Veel Glorie",
