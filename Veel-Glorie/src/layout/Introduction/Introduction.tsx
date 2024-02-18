@@ -15,7 +15,7 @@ function Introduction(): JSX.Element {
             y los actos gloriosos en sí mismos.
           </p>
           <p>En nuestro corazón reside la lucha, pero de todas maneras realizamos todo tipo de actividades.</p>
-          <p>Nuestra misión es crecer y convertir a granjeros en verdaderas herramientas bélicas.</p>
+          <p>Nuestra misión es convertir a granjeros en verdaderas herramientas bélicas.</p>
         </div>
       </div>
     </Section>

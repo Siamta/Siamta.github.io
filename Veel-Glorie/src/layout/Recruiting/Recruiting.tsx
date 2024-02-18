@@ -14,9 +14,8 @@ function Recruiting(): JSX.Element {
                 <H3>REQUISITOS</H3>
                 <i>(cumplir 1 de ellos)</i>
               </div>
-              <li>500k de fama PVP</li>
-              <li>15M de fama PVE</li>
               <li>Ser recomendado por alguien del gremio</li>
+              <li>500k de fama PVP & 20M de fama total</li>
             </ul>
           </div>
         </div>
@@ -26,7 +25,7 @@ function Recruiting(): JSX.Element {
         <p>No pretendemos que te conectes todos los días, pero sí casualmente.</p>
       </div>
       <div className="text-center">
-        <Link color href="https://discord.gg/BThjZ9HCZm">
+        <Link color href="https://discord.gg/q6KZcApac4">
           <b className="text-center">Ingresa al Discord para Reclutamiento</b>
         </Link>
       </div>

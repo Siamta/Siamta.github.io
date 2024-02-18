@@ -11,9 +11,9 @@ function Benefits(): JSX.Element {
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-fire">
               <li>Región: West</li>
-              <li>Ciudad: Martlock</li>
+              <li>Portal: Fort Sterling</li>
               <li>Impuestos: 0%</li>
-              <li>Reequip: T7 equivalente</li>
+              <li>Reequip: T8 equivalente</li>
             </ul>
           </div>
         </div>
@@ -21,14 +21,14 @@ function Benefits(): JSX.Element {
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-castle">
               <li>Ally: NUSOM</li>
-              <li>HO: Avalon map T7</li>
+              <li>HO: FS T6 & AVA Roads T7</li>
               <li>Buena onda?: Por supuesto</li>
               <li>Discord: Claro que sí</li>
             </ul>
           </div>
         </div>
       </div>
-      <Link color href="https://discord.gg/BThjZ9HCZm">
+      <Link color href="https://discord.gg/q6KZcApac4">
         <b>Visita Nuestro Canal de Voz</b>
       </Link>
     </Section>
