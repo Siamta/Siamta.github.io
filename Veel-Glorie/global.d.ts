@@ -2,28 +2,10 @@ declare namespace NodeJS {
   export interface Dict {
     // Basic Configuration.
     READY: string
-    SITE_DOMAIN: string
     SITE_NAME: string
-    SITE_DESCRIPTION: string
-    AUTHOR_NAME: string
-    AUTHOR_URL: string
-    PANELBAR_SITE_ID: string
 
-    // Contact information.
-    TEL_COUNTRY_CODE: string
-    TEL_PREFIX: string
-    TEL_AREA_CODE: string
-    TEL_NUMBER: string
-    ADDRESS_CITY: string
-    ADDRESS_STATE: string
-
-    // Indexing.
-    ROBOTS_DISALLOW: string
-
-    // Internationalization.
-    LOCALE_LANGUAGE: string
-    LOCALE_TERRITORY: string
-    LOCALE_DIR: string
+    // Media.
+    DISCORD_LINK: string
 
     // Screens.
     SCREEN_SM: string

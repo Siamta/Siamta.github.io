@@ -28,7 +28,7 @@ function Benefits(): JSX.Element {
           </div>
         </div>
       </div>
-      <Link color href="https://discord.gg/q6KZcApac4">
+      <Link color href={process.env.DISCORD_LINK}>
         <b>Visita Nuestro Canal de Voz</b>
       </Link>
     </Section>

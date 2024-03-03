@@ -32,11 +32,12 @@ module.exports = {
   // Basic Configuration.
   // ===================================================================
   READY: "true",
-
-  SITE_DOMAIN: "https://veelglorie.com",
   SITE_NAME: "Veel Glorie",
-  SITE_DESCRIPTION: "Gremio de Albion Online",
-  SITE_SLOGAN: "Convertimos granjeros en soldados",
+
+  // ===================================================================
+  // Media.
+  // ===================================================================
+  DISCORD_LINK: "https://discord.gg/q6KZcApac4",
 
   // ===================================================================
   // Screens.

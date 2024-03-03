@@ -25,7 +25,7 @@ interface MenuConfig {
 
 const buttons: MenuConfig[] = [
   {
-    url: "https://discord.gg/q6KZcApac4",
+    url: process.env.DISCORD_LINK,
     svg: SVGDiscord,
     text: "DISCORD",
   },

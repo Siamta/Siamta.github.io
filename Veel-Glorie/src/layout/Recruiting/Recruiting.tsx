@@ -12,21 +12,19 @@ function Recruiting(): JSX.Element {
             <ul className="style-li-shield">
               <div className="text-center pb-2 flex flex-col md:flex-row md:space-x-1 justify-center">
                 <H3>REQUISITOS</H3>
-                <i>(cumplir 1 de ellos)</i>
               </div>
-              <li>Ser recomendado por alguien del gremio</li>
-              <li>500k de fama PVP & 20M de fama total</li>
+              <li>50m de fama total</li>
+              <li>1m de fama PVP</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="text-center">
         <p>Que puedas hablar por Discord es indispensable.</p>
-        <p>No pretendemos que te conectes todos los días, pero sí casualmente.</p>
       </div>
       <div className="text-center">
-        <Link color href="https://discord.gg/q6KZcApac4">
-          <b className="text-center">Ingresa al Discord para Reclutamiento</b>
+        <Link color href={process.env.DISCORD_LINK}>
+          <b className="text-center">Ingresa al Discord para el Reclutamiento</b>
         </Link>
       </div>
     </Section>
