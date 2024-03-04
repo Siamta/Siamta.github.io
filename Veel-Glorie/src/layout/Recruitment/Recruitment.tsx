@@ -24,7 +24,7 @@ function Recruitment(): JSX.Element {
       </div>
       <div className="text-center">
         <Link color href={process.env.DISCORD_LINK}>
-          <b className="text-center">Ingresa al Discord para el Reclutamiento</b>
+          <b className="text-center">¡Postúlate!</b>
         </Link>
       </div>
     </Section>

@@ -27,11 +27,27 @@ const COLOR_BASE_200 = COLOR_FOREGROUND_OVER_BACKGROUND_10_PERCENT
 const COLOR_BASE_300 = COLOR_FOREGROUND_OVER_BACKGROUND_20_PERCENT
 const COLOR_BASE_CONTENT = COLOR_FOREGROUND
 
+function generateRandomString() {
+  const length = 8
+  let result = ""
+  const characters = "abcdefghijklmnopqrstuvwxyz0123456789"
+  const charactersLength = characters.length
+  for (let i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+}
+
 module.exports = {
   // ===================================================================
   // Basic Configuration.
   // ===================================================================
+
+  // Development.
   READY: "true",
+  RANDOM: generateRandomString(),
+
+  // Brand.
   DOMAIN: "https://www.veelglorie.com",
   SITE_NAME: "Veel Glorie",
   DESCRIPTION: "Gremio de Albion Online",

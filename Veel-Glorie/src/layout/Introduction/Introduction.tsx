@@ -6,7 +6,7 @@ function Introduction(): JSX.Element {
       <div className="flex flex-wrap justify-center md:flex-nowrap space-y-8 md:space-y-0 md:space-x-8">
         <div className="avatar">
           <div className="mask mask-squircle w-56 h-56 md:w-80 md:h-80">
-            <img src="/images/people.png" className="max-w-full min-h-full" />
+            <img src="/images/people.png?{process.env.RANDOM}" className="max-w-full min-h-full" />
           </div>
         </div>
         <div className="flex flex-col space-y-8 m-auto max-w-prose px-8 md:px-0 text-center md:text-start">

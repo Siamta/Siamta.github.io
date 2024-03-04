@@ -5,13 +5,12 @@ workbox.setConfig({
   clientsClaim: true,
 })
 
-var CacheFirst = workbox.strategies.CacheFirst
-var StaleWhileRevalidate = workbox.strategies.StaleWhileRevalidate
-var CacheableResponse = workbox.cacheableResponse.CacheableResponse
-var registerRoute = workbox.routing.registerRoute
-var ExpirationPlugin = workbox.expiration.ExpirationPlugin
-var precacheAndRoute = workbox.precaching.precacheAndRoute
-var CacheableResponsePlugin = workbox.cacheableResponse.CacheableResponsePlugin
+const { CacheFirst, StaleWhileRevalidate } = workbox.strategies
+const { CacheableResponse } = workbox.cacheableResponse
+const { registerRoute } = workbox.routing
+const { ExpirationPlugin } = workbox.expiration
+const { precacheAndRoute } = workbox.precaching
+const { CacheableResponsePlugin } = workbox.cacheableResponse
 
 // Cache images.
 registerRoute(
@@ -59,7 +58,7 @@ precacheAndRoute(
   [
     {
       url: "/index.html",
-      revision: "3270dd",
+      revision: "{process.env.HASH}",
     },
   ],
   {

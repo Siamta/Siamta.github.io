@@ -110,8 +110,8 @@
   .style-background {
     @apply bg-no-repeat;
 
-    background: url("/images/background.jpg") 50%;
-    background-image: linear-gradient(270deg, transparent, #000000), url("/images/background.jpg");
+    background: url("/images/background.jpg?{process.env.RANDOM}") 50%;
+    background-image: linear-gradient(270deg, transparent, #000000), url("/images/background.jpg?{process.env.RANDOM}");
 
     @apply bg-contain;
   }
