@@ -42,4 +42,8 @@ function generateHash(filePath: string): string {
   return hash.substring(0, 6);
 }
 
-traverseDirectory("dist/")
+function main() {
+  console.log("Postscript done!")
+}
+
+main()
