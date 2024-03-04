@@ -17,21 +17,12 @@ function traverseDirectory(currentPath: string) {
 }
 
 function replaceInFile(filePath: string) {
-  if (!isTextFile(filePath)) {
+  if (!path.extname(filePath).includes([".txt", ".html", ".xml", ".json", ".js", ".css", ".svg"])) {
     return
   }
   const fileContent = fs.readFileSync(filePath, "utf-8")
   const replacedContent = replaceVariables(fileContent);
   fs.writeFileSync(filePath, replacedContent, "utf-8")
-}
-
-function isTextFile(filePath: string): boolean {
-  try {
-    fs.readFileSync(filePath, "utf-8")
-  } catch (error) {
-    return false
-  }
-  return true
 }
 
 function replaceVariables(content: string): string {
@@ -45,8 +36,8 @@ function replaceVariables(content: string): string {
   });
 }
 
-function generateHash(template: string): string {
-  const fileContent = fs.readFileSync(template)
+function generateHash(filePath: string): string {
+  const fileContent = fs.readFileSync(filePath)
   const hash = nodeCrypto.createHash('sha256').update(fileContent).digest('hex')
   return hash.substring(0, 6);
 }
