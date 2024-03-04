@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://veelglorie.com/sitemap.xml
+Sitemap: {process.env.DOMAIN}/sitemap.xml
