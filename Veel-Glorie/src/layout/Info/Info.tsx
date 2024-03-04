@@ -1,11 +1,10 @@
-import { H2, H3 } from "../../components/Headings"
 import Section, { separations } from "../../components/Section"
 import Link from "../../components/Link"
 
 function Recruiting(): JSX.Element {
   return (
     <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
-      <div class="text-justify">
+      <div className="text-justify">
         <p>
           Brindamos contenido chill y no tan chill.
           Todas nuestras actividades son de carácter no obligatorio, es decir, si estamos por ir a conquistar outposts puedes hacer tu mazmorra o tu transporte y no te molestaremos.
