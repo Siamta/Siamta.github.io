@@ -30,7 +30,7 @@ function Summary(): JSX.Element {
       </div>
       <div className="text-center">
         <Link color href={process.env.DISCORD_LINK}>
-          <b className="text-center">Conocer más</b>
+          <b className="text-center">Conoce más</b>
         </Link>
       </div>
     </Section>

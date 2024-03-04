@@ -26,7 +26,7 @@ function Info(): JSX.Element {
           Nuestro contenido es relajado y también intenso.
           Nos movemos por Royal, Zona Negra y Caminos.
           Realizamos PVP, PVE y cualquier otra actividad que desees o quieras proponer.
-          Nos gusta gankear, farmear, trollear y relajarnos en la <b>Cantina 🍺</b>.
+          Nos gusta gankear, trollear y relajarnos en la <b>Cantina 🍺</b>.
         </p>
       </div>
       <Link color href={process.env.DISCORD_LINK}>
