@@ -30,7 +30,7 @@ function Summary(): JSX.Element {
       </div>
       <div className="text-center">
         <Link color href={process.env.DISCORD_LINK}>
-          <b className="text-center">Ingresa al Discord para conocer más de nosotros</b>
+          <b className="text-center">Conocer más</b>
         </Link>
       </div>
     </Section>

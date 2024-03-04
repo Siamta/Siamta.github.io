@@ -15,7 +15,7 @@ function Info(): JSX.Element {
         </p>
         <p>
           No poseemos impuestos, tasas o exigencias, salvo que sea una ocasión extraordinaria y demasiado especial.
-          El no tener impuestos y brindar total libertad horaria permite a nuestros guerreros disfrutar del juego en su máxima amplitud, y también les otorga la posibilidad de crear una economía sólida.
+          El no tener impuestos y brindar total libertad horaria permite a nuestros guerreros disfrutar del juego en su máxima amplitud, y también les otorga la posibilidad de que generen una economía sólida según sus propios méritos.
         </p>
         <p>
           El loot de las actividades se reparte, salvo un porcentaje menor que se quita y se brinda al gremio para poder ofrecer reequips y realizar inversiones para nuestro futuro.
@@ -25,7 +25,7 @@ function Info(): JSX.Element {
         <p>
           Nuestro contenido es relajado y también intenso.
           Nos movemos por Royal, Zona Negra y Caminos.
-          Realizamos PVP, PVE y cualquier otra actividad que desees.
+          Realizamos PVP, PVE y cualquier otra actividad que desees o quieras proponer.
           Nos gusta gankear, farmear, trollear y relajarnos en la <b>Cantina 🍺</b>.
         </p>
       </div>
