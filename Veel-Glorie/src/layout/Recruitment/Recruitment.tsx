@@ -2,9 +2,9 @@ import { H2, H3 } from "../../components/Headings"
 import Section, { separations } from "../../components/Section"
 import Link from "../../components/Link"
 
-function Recruiting(): JSX.Element {
+function Recruitment(): JSX.Element {
   return (
-    <Section separation={separations.BIG_DOUBLE}>
+    <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
       <H2>RECLUTAMIENTO</H2>
       <div className="flex flex-wrap lg:flex-nowrap flex-row lg:flex-column justify-center lg:items-center space-y-8 lg:space-x-8 lg:space-y-0">
         <div className="card w-full md:w-96 bg-primary">
@@ -31,4 +31,4 @@ function Recruiting(): JSX.Element {
   )
 }
 
-export default Recruiting
+export default Recruitment

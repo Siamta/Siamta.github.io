@@ -1,9 +1,9 @@
 import Section, { separations } from "../../components/Section"
 import Link from "../../components/Link"
 
-function Recruiting(): JSX.Element {
+function Info(): JSX.Element {
   return (
-    <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
+    <Section separation={separations.BIG_DOUBLE}>
       <div className="text-justify">
         <p>
           Brindamos contenido chill y no tan chill.
@@ -36,4 +36,4 @@ function Recruiting(): JSX.Element {
   )
 }
 
-export default Recruiting
+export default Info

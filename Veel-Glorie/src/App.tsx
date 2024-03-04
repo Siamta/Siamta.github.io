@@ -3,7 +3,7 @@ import Hero from "./layout/Hero"
 import Info from "./layout/Info"
 import Summary from "./layout/Summary"
 import Introduction from "./layout/Introduction"
-import Recruiting from "./layout/Recruiting"
+import Recruitment from "./layout/Recruitment"
 import "./styles/base.scss"
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <div className="flex flex-col -mb-6">
         <Introduction />
         <Summary />
+        <Recruitment />
         <Info />
-        <Recruiting />
       </div>
     </Base>
   )
