@@ -24,7 +24,4 @@ precacheAndRoute(
       revision: "21306e",
     },
   ],
-  {
-    cleanUrls: true,
-  },
 )
