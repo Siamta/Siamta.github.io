@@ -32,7 +32,10 @@ module.exports = {
   // Basic Configuration.
   // ===================================================================
   READY: "true",
+  DOMAIN: "https://www.veelglorie.com",
   SITE_NAME: "Veel Glorie",
+  DESCRIPTION: "Gremio de Albion Online",
+  SLOGAN: "Morir hoy, para matar mañana",
 
   // ===================================================================
   // Media.

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && node src/scripts/hashes.ts",
     "preview": "vite preview",
     "eslint": "eslint . --fix --ext .ts,.tsx",
     "prettier": "prettier -w \"**/*.{js,ts,tsx,mdx}\""

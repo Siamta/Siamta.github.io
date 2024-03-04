@@ -1,6 +1,6 @@
 import Base from "./layout/Base"
-import Benefits from "./layout/Benefits"
 import Hero from "./layout/Hero"
+import Summary from "./layout/Summary"
 import Introduction from "./layout/Introduction"
 import Recruiting from "./layout/Recruiting"
 import "./styles/base.scss"
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <div className="flex flex-col -mb-6">
         <Introduction />
-        <Benefits />
+        <Summary />
         <Recruiting />
       </div>
     </Base>

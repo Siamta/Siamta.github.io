@@ -4,7 +4,7 @@ import Link from "../../components/Link"
 
 function Recruiting(): JSX.Element {
   return (
-    <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
+    <Section separation={separations.BIG_DOUBLE}>
       <H2>RECLUTAMIENTO</H2>
       <div className="flex flex-wrap lg:flex-nowrap flex-row lg:flex-column justify-center lg:items-center space-y-8 lg:space-x-8 lg:space-y-0">
         <div className="card w-full md:w-96 bg-primary">

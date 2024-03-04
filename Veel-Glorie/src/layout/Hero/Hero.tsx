@@ -10,7 +10,7 @@ function Hero(): JSX.Element {
           <div className="avatar">
             <div className="border-4 rounded-md w-44 h-44 border-black">
               <img
-                src="https://cdn.discordapp.com/attachments/1112947416434483292/1208575346967056394/logo.gif?ex=65e3c880&is=65d15380&hm=27b033d789f35522bb1fecd6eec524769fb71684f2610f521b82a18d349f4863&"
+                src="/images/logo.gif"
                 className="max-w-full min-h-full"
               />
             </div>

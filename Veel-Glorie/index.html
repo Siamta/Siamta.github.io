@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <title>Veel Glorie</title>
+    <title>{process.env.SITE_NAME}</title>
     <meta name="theme-color" content="#000000">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -38,27 +38,27 @@
     <meta name="yandex-tableau-widget" content="logo=/assets/yandex.png, color=#000000">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://veelglorie.com">
-    <meta property="og:site_name" content="Veel Glorie">
-    <meta property="og:title" content="Veel Glorie">
-    <meta property="og:description" content="Gremio de Albion Online">
+    <meta property="og:url" content="{process.env.DOMAIN}">
+    <meta property="og:site_name" content="{process.env.SITE_NAME}">
+    <meta property="og:title" content="{process.env.SITE_NAME}">
+    <meta property="og:description" content="{process.env.DESCRIPTION}">
     <meta property="og:image" content="/assets/preview-600x600.png">
     <meta property="og:image:secure_url" content="/assets/preview-600x600.png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:alt" content="Veel Glorie - Gremio de Albion Online">
+    <meta property="og:image:alt" content="{process.env.SITE_NAME} - {process.env.DESCRIPTION}">
     <meta property="og:image" content="/assets/preview-1080x1080.png">
     <meta property="og:image:secure_url" content="/assets/preview-1080x1080.png">
     <meta property="og:image:width" content="1080">
     <meta property="og:image:height" content="1080">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:alt" content="Veel Glorie - Gremio de Albion Online">
+    <meta property="og:image:alt" content="{process.env.SITE_NAME} - {process.env.DESCRIPTION}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Veel Glorie">
-    <meta name="twitter:description" content="Gremio de Albion Online">
+    <meta name="twitter:title" content="{process.env.SITE_NAME}">
+    <meta name="twitter:description" content="{process.env.DESCRIPTION}">
     <meta name="twitter:image" content="/assets/preview-600x600.png">
-    <meta name="twitter:image:alt" content="Veel Glorie - Gremio de Albion Online">
+    <meta name="twitter:image:alt" content="{process.env.SITE_NAME} - {process.env.DESCRIPTION}">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" crossorigin="anonymous">
@@ -84,23 +84,23 @@
     <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portarit)" href="/assets/apple-touch-startup-image-640x1136.png">
     <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="/assets/apple-touch-startup-image-1136x640.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="application-name" content="Veel Glorie">
+    <meta name="application-name" content="{process.env.SITE_NAME}">
     <meta name="msapplication-config" content="/assets/browserconfig.xml">
-    <meta name="apple-mobile-web-app-title" content="Veel Glorie">
+    <meta name="apple-mobile-web-app-title" content="{process.env.SITE_NAME}">
     <link rel="mask-icon" color="#f8b139" href="/assets/mask-icon.svg">
-    <link rel="search" type="application/opensearchdescription+xml" title="Veel Glorie" href="/assets/opensearch.xml">
-    <meta name="description" content="Gremio de Albion Online">
+    <link rel="search" type="application/opensearchdescription+xml" title="{process.env.SITE_NAME}" href="/assets/opensearch.xml">
+    <meta name="description" content="{process.env.DESCRIPTION}">
     <meta name="subject" content="Home">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Veel Glorie developers">
+    <meta name="author" content="{process.env.SITE_NAME} developers">
     <script type="application/ld+json">
       {
         "@context": "http://schema.org/",
         "@type": "Organization",
-        "@id": "https://veelglorie.com",
-        "url": "https://veelglorie.com",
-        "slogan": "Morir hoy, para matar mañana",
-        "description": "Gremio de Albion Online",
+        "@id": "{process.env.DOMAIN}",
+        "url": "{process.env.DOMAIN}",
+        "slogan": "{process.env.SLOGAN}",
+        "description": "{process.env.DESCRIPTION}",
         "logo": "/assets/preview-600x600.png",
         "image": "/assets/preview-600x600.png"
       }
