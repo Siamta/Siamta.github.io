@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "version": "0.1.0",
-  "name": "{process.env.SITE_NAME}",
-  "short_name": "{process.env.SITE_NAME}",
-  "description": "{process.env.DESCRIPTION}",
+  "name": "Veel Glorie",
+  "short_name": "Veel Glorie",
+  "description": "Gremio de Albion Online",
   "dir": "ltr",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -15,13 +15,13 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/assets/manifest-192x192.png",
+      "src": "/assets/manifest-192x192.png?version=5hlipx9u",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/assets/manifest-512x512.png",
+      "src": "/assets/manifest-512x512.png?version=5hlipx9u",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
