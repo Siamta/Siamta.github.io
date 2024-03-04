@@ -2,14 +2,14 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square30x30logo src="/assets/browserconfig-30x30.png?version=postprocess_VERSION"/>
-      <square44x44logo src="/assets/browserconfig-44x44.png?version=postprocess_VERSION"/>
-      <square70x70logo src="/assets/browserconfig-70x70.png?version=postprocess_VERSION"/>
-      <square150x150logo src="/assets/browserconfig-150x150.png?version=postprocess_VERSION"/>
-      <square310x310logo src="/assets/browserconfig-310x310.png?version=postprocess_VERSION"/>
-      <wide310x150logo src="/assets/browserconfig-310x150.png?version=postprocess_VERSION"/>
-      <TileImage src="/assets/browserconfig-144x144.png?version=postprocess_VERSION"/>
-      <TileColor>postprocess_COLOR_PRIMARY</TileColor>
+      <square30x30logo src="/assets/browserconfig-30x30.png?version=b9djd1wq"/>
+      <square44x44logo src="/assets/browserconfig-44x44.png?version=b9djd1wq"/>
+      <square70x70logo src="/assets/browserconfig-70x70.png?version=b9djd1wq"/>
+      <square150x150logo src="/assets/browserconfig-150x150.png?version=b9djd1wq"/>
+      <square310x310logo src="/assets/browserconfig-310x310.png?version=b9djd1wq"/>
+      <wide310x150logo src="/assets/browserconfig-310x150.png?version=b9djd1wq"/>
+      <TileImage src="/assets/browserconfig-144x144.png?version=b9djd1wq"/>
+      <TileColor>#b42724</TileColor>
     </tile>
   </msapplication>
 </browserconfig>

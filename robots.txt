@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: postprocess_DOMAIN/sitemap.xml?version=postprocess_VERSION
+Sitemap: https://www.veelglorie.com/sitemap.xml?version=b9djd1wq
