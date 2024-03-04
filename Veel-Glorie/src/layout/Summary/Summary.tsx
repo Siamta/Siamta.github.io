@@ -1,5 +1,4 @@
 import Section, { separations } from "../../components/Section"
-import Link from "../../components/Link"
 import { H2 } from "../../components/Headings"
 
 function Summary(): JSX.Element {
