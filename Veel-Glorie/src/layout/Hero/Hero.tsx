@@ -10,7 +10,7 @@ function Hero(): JSX.Element {
           <div className="avatar">
             <div className="border-4 rounded-md w-44 h-44 border-black">
               <img
-                src="/images/logo.gif?{process.env.RANDOM}"
+                src="/images/logo.gif?version=postprocess_VERSION"
                 className="max-w-full min-h-full"
               />
             </div>

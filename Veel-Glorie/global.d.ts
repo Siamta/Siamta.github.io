@@ -2,7 +2,7 @@ declare namespace NodeJS {
   export interface Dict {
     // Development.
     READY: string
-    RANDOM: string
+    VERSION: string
 
     // Brand.
     DOMAIN: string

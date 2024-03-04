@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: {process.env.DOMAIN}/sitemap.xml?{process.env.RANDOM}
+Sitemap: postprocess_DOMAIN/sitemap.xml?version=postprocess_VERSION

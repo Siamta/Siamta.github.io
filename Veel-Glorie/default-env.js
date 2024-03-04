@@ -45,7 +45,7 @@ module.exports = {
 
   // Development.
   READY: "true",
-  RANDOM: generateRandomString(),
+  VERSION: generateRandomString(),
 
   // Brand.
   DOMAIN: "https://www.veelglorie.com",

@@ -58,7 +58,7 @@ precacheAndRoute(
   [
     {
       url: "/index.html",
-      revision: "{process.env.HASH}",
+      revision: "postprocess_HASH",
     },
   ],
   {
