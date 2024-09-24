@@ -14,7 +14,7 @@ function Introduction(): JSX.Element {
         y la sangre de nuestros soldados es un reflejo de la lucha y los actos gloriosos en sí mismos.
       </p>
       <div className="flex flex-col pt-4">
-        </p>
+        <p>
           Más que un gremio, a veces parecemos una comunidad o un grupo de amigos.
           Llevamos un buen tiempo juntos y, entre todos,
           defendemos nuestros ideales, nuestro patrimonio y tomamos las decisiones de manera conjunta.
