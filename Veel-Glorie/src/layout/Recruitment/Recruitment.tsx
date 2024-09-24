@@ -14,13 +14,15 @@ function Recruitment(): JSX.Element {
                 <H3>REQUISITOS</H3>
               </div>
               <li>Set ZVZ 1400 de IP</li>
-              <li><i>Equivalente a T8 (capa 4.3)</i></li>
+              <div className="text-center text-sm">
+                <i>Equivalente a T8 (capa 4.3)</i>
+              </div>
             </ul>
           </div>
         </div>
       </div>
       <div className="text-center">
-        <p>Que puedas hablar por Discord es indispensable.</p>
+        Que puedas hablar por Discord es indispensable.
       </div>
       <div className="text-center">
         <Link color href={process.env.DISCORD_LINK}>
