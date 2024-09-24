@@ -19,7 +19,7 @@ function Summary(): JSX.Element {
         <div className="card w-full md:w-96 bg-primary">
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-castle">
-              <li>HO: Main at AVA Roads - Rest at BZ</li>
+              <li>HO: AVA + Zona Negra</li>
               <li>Buena onda?: Por supuesto</li>
               <li>Discord: Claro que sí</li>
             </ul>

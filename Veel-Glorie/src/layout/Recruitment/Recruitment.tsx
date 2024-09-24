@@ -13,16 +13,11 @@ function Recruitment(): JSX.Element {
               <div className="text-center pb-2 flex flex-col md:flex-row md:space-x-1 justify-center">
                 <H3>REQUISITOS</H3>
               </div>
-              <li>Set ZVZ 1400 de IP</li>
-              <div className="text-center text-sm">
-                <i>Equivalente a T8 (capa 4.3)</i>
-              </div>
+              <li>Set ZVZ 1400 de IP (todo T8, capa 4.3)</li>
+              <li>Que puedas hablar por Discord es indispensable</li>
             </ul>
           </div>
         </div>
-      </div>
-      <div className="text-center">
-        Que puedas hablar por Discord es indispensable.
       </div>
       <div className="text-center">
         <Link color href={process.env.DISCORD_LINK}>
