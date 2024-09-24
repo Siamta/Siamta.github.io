@@ -6,10 +6,12 @@ interface YouTubeProps {
 function YouTube({ title, url }: YouTubeProps): JSX.Element {
   return (
     <iframe
-      title={title}
-      src={url}
-      className="border-none"
-      allowFullScreen
+        src={`https://www.youtube.com/embed/${url}`}
+        title={`${title} - [YouTube]`}
+        className="border-none w-[35rem] h-[20rem]"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
     />
   )
 }
