@@ -1,8 +1,12 @@
 import Section, { separations } from "../../components/Section"
+import YouTube from "../../components/YouTube"
 
 function Introduction(): JSX.Element {
   return (
     <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
+      <div className="flex">
+        <YouTube title="Video gremial" link="ix-pyuUBMlE" />
+      </div>
       <div className="flex flex-wrap justify-center md:flex-nowrap space-y-8 md:space-y-0 md:space-x-8">
         <div className="avatar">
           <div className="mask mask-squircle w-56 h-56 md:w-80 md:h-80">

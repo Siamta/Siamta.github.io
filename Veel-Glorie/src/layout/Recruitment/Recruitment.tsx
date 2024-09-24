@@ -13,8 +13,8 @@ function Recruitment(): JSX.Element {
               <div className="text-center pb-2 flex flex-col md:flex-row md:space-x-1 justify-center">
                 <H3>REQUISITOS</H3>
               </div>
-              <li>50m de fama total</li>
-              <li>1m de fama PVP</li>
+              <li>Set ZVZ 1400 de IP</li>
+              <li><i>Equivalente a T8 (capa 4.3)</i></li>
             </ul>
           </div>
         </div>

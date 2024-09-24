@@ -11,17 +11,15 @@ function Summary(): JSX.Element {
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-fire">
               <li>Región: West</li>
-              <li>Portal: Fort Sterling</li>
-              <li>Horario: 18 UTC - 2 UTC</li>
-              <li>Reequip: T8 equivalente</li>
+              <li>Horario: 20 UTC - 2 UTC</li>
+              <li>Reequip: T8+ equiv</li>
             </ul>
           </div>
         </div>
         <div className="card w-full md:w-96 bg-primary">
           <div className="card-body p-4 md:px-8 m-auto text-sm md:text-normal">
             <ul className="style-li-castle">
-              <li>Ally: NUSOM</li>
-              <li>HO: FS T6 & AVA Roads T7</li>
+              <li>HO: Main at AVA Roads - Rest at BZ</li>
               <li>Buena onda?: Por supuesto</li>
               <li>Discord: Claro que sí</li>
             </ul>
