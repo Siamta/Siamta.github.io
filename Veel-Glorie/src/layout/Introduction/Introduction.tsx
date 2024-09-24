@@ -15,10 +15,8 @@ function Introduction(): JSX.Element {
         </div>
         <div className="flex flex-col space-y-8 m-auto max-w-prose px-8 md:px-0 text-center md:text-start">
           <p>
-            <b>
-              {process.env.SITE_NAME}</b> significa <i>Mucha Gloria</i>,
-              y la sangre de nuestros soldados es un reflejo de la lucha y los actos gloriosos en sí mismos.
-            </b>
+            <b>{process.env.SITE_NAME}</b> significa <i>Mucha Gloria</i>,
+            y la sangre de nuestros soldados es un reflejo de la lucha y los actos gloriosos en sí mismos.
           </p>
           <p>
             En nuestro corazón reside la lucha,
