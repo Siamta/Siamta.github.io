@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.veelglorie.com/sitemap.xml?version=k7j181dk
+Sitemap: https://www.veelglorie.com/sitemap.xml?version=ykcqr0r9

@@ -2,13 +2,13 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square30x30logo src="/assets/browserconfig-30x30.png?version=k7j181dk"/>
-      <square44x44logo src="/assets/browserconfig-44x44.png?version=k7j181dk"/>
-      <square70x70logo src="/assets/browserconfig-70x70.png?version=k7j181dk"/>
-      <square150x150logo src="/assets/browserconfig-150x150.png?version=k7j181dk"/>
-      <square310x310logo src="/assets/browserconfig-310x310.png?version=k7j181dk"/>
-      <wide310x150logo src="/assets/browserconfig-310x150.png?version=k7j181dk"/>
-      <TileImage src="/assets/browserconfig-144x144.png?version=k7j181dk"/>
+      <square30x30logo src="/assets/browserconfig-30x30.png?version=ykcqr0r9"/>
+      <square44x44logo src="/assets/browserconfig-44x44.png?version=ykcqr0r9"/>
+      <square70x70logo src="/assets/browserconfig-70x70.png?version=ykcqr0r9"/>
+      <square150x150logo src="/assets/browserconfig-150x150.png?version=ykcqr0r9"/>
+      <square310x310logo src="/assets/browserconfig-310x310.png?version=ykcqr0r9"/>
+      <wide310x150logo src="/assets/browserconfig-310x150.png?version=ykcqr0r9"/>
+      <TileImage src="/assets/browserconfig-144x144.png?version=ykcqr0r9"/>
       <TileColor>#b42724</TileColor>
     </tile>
   </msapplication>
