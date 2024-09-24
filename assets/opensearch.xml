@@ -4,7 +4,7 @@
   <LongName>Buscador de Veel Glorie</LongName>
   <Description>Busca utilizando Veel Glorie</Description>
   <Url method="get" type="text/html" template="https://www.google.com/search?q=site:https://www.veelglorie.com {searchTerms}"/>
-  <Image height="16" width="16" type="image/x-icon">https://www.veelglorie.com/favicon.ico?version=jn33h5nq</Image>
-  <Image height="64" width="64" type="image/png">https://www.veelglorie.com/assets/opensearch-64x64.png?version=jn33h5nq</Image>
+  <Image height="16" width="16" type="image/x-icon">https://www.veelglorie.com/favicon.ico?version=k7j181dk</Image>
+  <Image height="64" width="64" type="image/png">https://www.veelglorie.com/assets/opensearch-64x64.png?version=k7j181dk</Image>
   <Developer>Author: Veel Glorie</Developer>
 </OpenSearchDescription>
