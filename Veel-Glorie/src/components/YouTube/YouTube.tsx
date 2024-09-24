@@ -1,17 +1,17 @@
 interface YouTubeProps {
-    title: string
+  title: string
   url: string
 }
 
 function YouTube({ title, url }: YouTubeProps): JSX.Element {
-    return (
-        <iframe
-            frameborder="0"
-            allowfullscreen
-            title={title}
-            src={url}
-        />
-    )
+  return (
+    <iframe
+      title={title}
+      src={url}
+      className="border-none"
+      allowFullScreen
+    />
+  )
 }
 
 export default YouTube

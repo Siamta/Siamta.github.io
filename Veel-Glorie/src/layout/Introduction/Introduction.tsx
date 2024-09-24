@@ -5,7 +5,7 @@ function Introduction(): JSX.Element {
   return (
     <Section transparency background="secondary" separation={separations.BIG_DOUBLE}>
       <div className="flex">
-        <YouTube title="Video gremial" link="ix-pyuUBMlE" />
+        <YouTube title="Video gremial" url="ix-pyuUBMlE" />
       </div>
       <div className="flex flex-wrap justify-center md:flex-nowrap space-y-8 md:space-y-0 md:space-x-8">
         <div className="avatar">
